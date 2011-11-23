@@ -1,4 +1,4 @@
-<?php /* Smarty version 2.6.22, created on 2011-11-22 17:11:45
+<?php /* Smarty version 2.6.22, created on 2011-11-23 14:58:14
          compiled from default/Index/index.html */ ?>
 <!DOCTYPE html>
 <html>
@@ -16,7 +16,13 @@
         <a href="#">OTHER</a>
     </nav>
 </header>
-<div id="content"></div>
+<div id="content">
+    <article>
+    name:<?php echo $this->_tpl_vars['poker']; ?>
+<br>
+    
+    </article>
+</div>
 <aside></aside>
 <footer></footer>
 </body>

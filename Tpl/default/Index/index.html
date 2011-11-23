@@ -16,8 +16,14 @@
 </header>
 <div id="content">
     <article>
+    {assign var="name" value="Bob"}
+    {assign var="sex" value="i男性ho"}
+    name:{$name|count_characters}<br>
+    name:{$sex|count_characters}<br>
+    
     </article>
 </div>
+{debug}
 <aside></aside>
 <footer></footer>
 </body>

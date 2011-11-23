@@ -12,6 +12,7 @@ class IndexAction extends Action
         $Demo = new Model('Demo');
         $list = $Demo->select();
         $this->assign('list', $list);
+        $this->assign('poker','hehe');
         $this->display();
     }
     
