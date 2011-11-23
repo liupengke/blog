@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+<script src="/ckeditor/ckeditor.js"></script>
+</head>
+<body>
+{$anum}=ppp;
+<br>
+{$test}
+<form action="/poker/index.php/Create/submit" method="post">
+<textarea id="editor" name="content"></textarea>
+<input type="submit" value="go">
+</form>
+<script>
+CKEDITOR.replace( 'editor' );
+</script>
+</body>
+</html>
